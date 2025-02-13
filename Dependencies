@@ -1,0 +1,12 @@
+Flask==2.1.1
+tweepy==4.9.0
+sendgrid==6.9.1
+requests==2.26.0
+
+To Run the Operation
+git clone https://github.com/your_username/api_integration_app.git
+cd api_integration_app
+pip install -r requirements.txt
+python app.py
+
+Web Browser Access: http://127.0.0.1:5000/
