@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Integration App</title>
+</head>
+<body>
+    <h1>API Integration App</h1>
+    <form action="/post_tweet" method="POST">
+        <input type="text" name="tweet" placeholder="Enter tweet" required>
+        <button type="submit">Post Tweet</button>
+    </form>
+
+    <form action="/send_email" method="POST">
+        <textarea name="email_content" placeholder="Enter email content" required></textarea>
+        <button type="submit">Send Email</button>
+    </form>
+
+    <form action="/show_map" method="GET">
+        <input type="text" name="location" placeholder="Enter location" required>
+        <button type="submit">Show Map</button>
+    </form>
+</body>
+</html>
