@@ -1,0 +1,8 @@
+api_integration_app/
+│
+├── app.py                # Main application file
+├── templates/            # Folder for HTML templates
+│   ├── index.html        # Home page template
+│   └── map.html          # Map display page template
+├── .gitignore            # Git ignore file (to avoid uploading sensitive data)
+└── requirements.txt      # File for required dependencies
