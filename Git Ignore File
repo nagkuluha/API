@@ -1,0 +1,15 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# API Keys (Add the path to a .env or other files that store sensitive keys)
+*.env
+
+# IDE files
+.vscode/
+.idea/
